@@ -1,0 +1,845 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+.Cabeçalho
+{
+    background-image: url(file:///C:/Users/letic/OneDrive/Documentos/Faculdade/Desenvolvimento%20de%20Interface%20Web/Portal%20de%20Not%C3%ADcia/Teste/TrabalhoTeste/FundoCabe%C3%A7alhoNet.webp);
+    height: 60px;
+    width: 100%;
+}
+.Logo
+{
+    padding-top: 7px;
+    width: 130px;
+}
+.Navegacao, .CabeçalhoDireita
+{
+    text-align: right;
+}
+.IconeCabeçalho
+{
+    margin-top: 7px;
+    text-align: right;
+    color:lightgray;
+    text-decoration:none;
+    border-color: rgb(145, 38, 97);
+}
+.NavegacaoDireita
+{
+    display: inline;
+    color:lightgray;
+    font-size:10px;
+    font-family:'Calibri';
+    text-align: right;
+    text-decoration:rgb(145, 38, 97);
+    border-color: rgb(145, 38, 97);
+}
+.Botao
+{
+    display: inline;
+    color:black;
+    font-size:12px;
+    font-family:'Calibri';
+    text-align: center;
+    text-decoration:rgb(145, 38, 97);
+    border-color: rgb(145, 38, 97);
+}
+.Nome, .Sobrenome, .Email, .Senha, .Endereço, .Adicional, .Cidade, .Estado
+{
+    color: black;
+    font-family: 'Calibri';
+    font-size:12px;
+    text-align: left;
+}
+.TextoSenha
+{
+    margin-left: 16px;
+}
+.TituloModal
+{
+    text-align: center;
+    font-size:14px;
+    color: black;
+    font-family: 'Calibri';
+
+}
+.Iconemodal
+{
+    font-size:16px;
+    font-family: 'Calibri';
+    text-align: center;
+    text-decoration:rgb(145, 38, 97);
+    border-color: rgb(145, 38, 97);
+}
+.img
+{
+    display: inline;
+    margin-right: 12px;
+}
+.section
+{
+    text-align: right;
+    padding-top: 5px;
+    color: white; 
+    font-size:10px;
+    font-family: 'Calibri';
+}
+.um
+{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.dois
+{
+    margin-left: 3px;
+}
+/*CABEÇALHO*/
+@media screen and (min-width:1201px)
+{
+	.CabeçalhoDireita
+	{
+        display:none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:1200px)
+{
+	.Navegacao, .section
+	{
+        display:none;
+    }
+}
+/*HEADER 2*/
+.Total
+{
+    background-color: rgb(255, 199, 230);
+    height: 38px;
+}
+.Movimento
+{
+    align-items: left;
+}
+.Segundo
+{
+    font-size:14px;
+    color: white; 
+    font-family: 'Calibri';
+}
+.dropdown-menu, .form-inline
+{
+    font-size:14px;
+    font-family: 'Calibri';
+}
+.form-inline
+{
+    align-items: right;
+}
+.Butao, .Controle
+{
+    border-color: rgb(145, 38, 97);
+}
+@media screen and (min-width:580px) and (max-width:1200px)
+{
+    .Meio
+    {
+        display:none;
+    }
+}
+@media screen and (min-width:465px) and (max-width:580px)
+{
+    .Total
+    {
+        height: 54px;
+    }
+    .Meio
+    {
+        display:none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:464px)
+{
+    .Total
+    {
+        height: 20px;
+    }
+    .Metade
+    {
+        display:none;
+    }
+    .Meio
+    {
+        display:none;
+    }
+}
+/*CARROSSEL*/
+.main
+{
+    background-color: lightgray;
+}
+.PrimeiroSlide, .SegundoSlide, .TerceiroSlide
+{
+    color: white;
+    font-family: 'Calibri';
+    text-align: center;
+}
+.carousel-inner
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.FundoLateral
+{
+    background-image: url(file:///C:/Users/letic/OneDrive/Documentos/Faculdade/Desenvolvimento%20de%20Interface%20Web/Portal%20de%20Not%C3%ADcia/Teste/TrabalhoTeste/FundoCarrossel.png);
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+.Fundo
+{
+    background-image: url(file:///C:/Users/letic/OneDrive/Documentos/Faculdade/Desenvolvimento%20de%20Interface%20Web/Portal%20de%20Not%C3%ADcia/Teste/TrabalhoTeste/FundoCarrossel.png);
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/*EXCLUSIVO*/
+.ImagemUm
+{
+    width: 150px;
+    height: 140px;
+}
+.Exclusiva
+{ 
+    grid-template-columns: 1fr 2fr;   
+    grid-column: 1fr;
+} 
+.MediaBody
+{
+    grid-column: 2fr;
+    font-size:12px;
+    color: black;
+    font-family: 'Calibri';
+    margin-left: 15px;
+    border-color: rgb(145, 38, 97);
+    text-align: center;
+}
+.Botao
+{
+    font-size:12px;
+    color: black;
+    font-family: 'Calibri';
+    border-color: rgb(145, 38, 97);
+}
+@media screen and (min-width:320px) and (max-width:991px)
+{
+    .ImagemUm
+    {
+        margin-top: 30px;
+        width: 180px;
+        height: 140px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:767px)
+{
+    .Paragrafo
+    {
+        display: none;
+    }
+    .ImagemUm
+    {
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:575px)
+{
+    .ImagemUm
+    {
+        width: 150px;
+        height: 120px;
+    }
+}
+@media screen and (min-width:471px)
+{
+	.BotaoMenor, .Escrits
+	{
+        display:none;
+    }
+}
+.BotaoMenor
+{
+    font-size:12px;
+    color: black;
+    font-family: 'Calibri';
+    border-color: rgb(145, 38, 97);
+}
+@media screen and (min-width:320px) and (max-width:470px)
+{
+    .Botao
+    {
+        display:none;
+    }
+    .ImagemUm
+    {
+        margin-top: 12px;
+    }
+    .Escritos
+    {
+        display: none;
+    }
+}
+.Escrits
+{
+    font-size:13px;
+    color: black;
+    font-family: 'Calibri';
+    text-align: center;
+}
+@media screen and (min-width:320px) and (max-width:433px)
+{
+    .Exclusiva
+    {
+        display: block;
+    }
+    .ImagemUm
+    {
+        margin-top: 0px;
+        width: 140px;
+        height: 100px;
+        margin-left: 70px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:400px)
+{
+    .ImagemUm
+    {
+        width: 120px;
+        height: 80px;
+        margin-left: 60px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:360px)
+{
+    .ImagemUm
+    {
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:340px)
+{
+    .ImagemUm
+    {
+        width: 100px;
+        height: 70px;
+        margin-left: 50px;
+    }
+}
+/*NOTICIAS,VIDEOS,INTERESSANTE*/
+
+.Escrito
+{
+    font-size:16px;
+    text-align: center;
+}
+.Borda 
+{
+    text-decoration: none;
+    border-color: rgb(145, 38, 97);
+    font-size:12px;
+    color: black;
+    font-family: 'Calibri';
+}
+@media screen and (min-width:320px) and (max-width:468px)
+{
+    .Navegador
+    {
+        display: none;
+    }
+    .Corta 
+    {
+        display: none;
+    }
+}
+/*NOTICIAS*/
+.NoticiasMedia
+{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;  
+    max-width: 800px; 
+} 
+.ImagemDois
+{
+    height:176px;
+    width: 270px;
+}
+.Centro
+{
+    margin-left: 30px;
+}
+.Tit
+{
+    display:block;
+    font-size:16px;
+    text-align: center;
+    color: black;
+    font-family: 'Calibri';
+}
+.Escrita
+{
+    padding-top: 10px;
+    font-size:12px;
+    color: black;
+    font-family: 'Calibri';
+}
+.bot1, .bot2, .bot3, .bot4
+{
+    align-items: center;
+}
+.Cor 
+{
+    Text-decoration: none;
+    color: rgb(145, 38, 97);
+}
+.Ti
+{
+    padding-bottom: 17px;
+}
+@media screen and (min-width:320px) and (max-width:1200px)
+{
+    .ImagemDois
+    {
+        height:132px;
+        width: 202px;
+    }
+    .Espaçamento
+    {
+        margin: 10px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:991px)
+{
+    .ImagemDois
+    {
+        height:99px;
+        width:151px;
+    }
+    .Centro
+    {
+        margin-left:15px;
+    }
+    .Ti
+    {
+        padding-top: 21px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:767px)
+{
+    .ImagemDois
+    {
+        height:74px;
+        width:113px;
+    }
+    .Ti
+    {
+        padding-top: 35px;
+        padding-bottom: 22px;
+    }
+    .Tit
+    {
+        margin-left: 15px;
+    }
+    .Escrita
+    {
+        margin-left: 15px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:767px)
+{
+    .NoticiasMedia
+    {
+        display: block;
+    }
+    .ImagemDois
+    {
+        margin-left: 50px;
+    }
+    .Ti
+    {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .Espaço 
+    {
+        margin-left: 100px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:490px)
+{
+    .ImagemDois
+    {
+        margin-left: 35px;
+    }
+    .Espaço 
+    {
+        margin-left: 70px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:430px)
+{
+    .ImagemDois
+    {
+        margin-left: 25px;
+    }
+    .Espaço 
+    {
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:370px)
+{
+    .ImagemDois
+    {
+        margin-left: 15px;
+    }
+    .Espaço 
+    {
+        margin-left: 25px;
+    }
+}
+/*RECOMENDAÇÕES*/
+.Ttl
+{
+    font-size:16px;
+    text-align: center;
+    color: rgb(145, 38, 97);
+    font-family: 'Calibri';
+}
+.Escrito
+{
+    padding-top: 10px;
+    font-size:12px;
+    color: black;
+    font-family: 'Calibri';
+}
+@media screen and (min-width:320px) and (max-width:1200px)
+{
+    .Escrito
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:576px)
+{
+    .Troca
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:576px)
+{
+    .Troco
+    {
+        display: none;
+    }
+    .Rec 
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/*CARROSSELFINAL*/
+.Bordo
+{
+    border-color: rgb(145, 38, 97);
+}
+.Final
+{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;  
+    max-width: 800px;
+}
+/*NAVEGADORLATERAL*/
+.Titulo
+{
+    width: 100%;
+}
+/*CARROSSELATERAL*/
+.Titu
+{
+    display:block;
+    font-size:13px;
+    text-align: center;
+    color: black;
+    font-family: 'Calibri';
+}
+.Escritas, .TextoCarrossel
+{
+    padding-top: 10px;
+    font-size:12px;
+    color: black;
+    font-family: 'Calibri';
+    text-align: center;
+}
+.Ultimo
+{
+    background-color: gray;
+    height: 241px;
+}
+.VerticalMeio
+{
+    margin-top: 50px;
+}
+.Vertical
+{
+    margin-top: 80px;
+}
+@media screen and (min-width:320px) and (max-width:1199px)
+{
+    .Ultimo
+    {
+        height: 196px;
+    }
+    .VerticalMeio
+    {
+        margin-top: 35px;
+    }
+    .Vertical
+    {
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:991px)
+{
+    .Ultimo
+    {
+        height: 136px;
+    }
+    .VerticalMeio
+    {
+        margin-top:0px;
+    }
+    .Corte
+    {
+        display:none;
+    }
+    .Vertical
+    {
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width:768px)
+{
+	.TextoCarrossel
+	{
+        display:none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:767px)
+{
+    .Titu, .Escritas
+    {
+        display: none;
+    }
+    .Ultimo
+    {
+        height: 91px;
+    }
+    .Vertical
+    {
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:575px)
+{
+    .Direita, .DireitaTitulo
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:767px)
+{
+    .RedesSociais
+    {
+        height:70px;
+        width:70px;
+    }
+}
+/*PLAYLIST*/
+.Title
+{
+    padding-top: 20px;
+    font-size:16px;
+    color: rgb(145, 38, 97);
+    font-family: 'Calibri';
+    text-align: center;
+}
+.Bot
+{
+    font-size:12px;
+    color: black;
+    font-family: 'Calibri';
+    text-align: center;
+    border-color:rgb(145, 38, 97);
+}
+.Botao2, .Botao5, .Botao8
+{
+    margin-left: 30px;
+}
+@media screen and (min-width:1200px)
+{
+    .Aparecendo
+    {
+        display:none
+    }
+    .Botao1, .Botao4 , .Botao7, 
+    {
+        float: left;
+    }
+    .Botao3, .Botao6, .Botao9
+    {
+        float: right;
+    }
+    .Botao2, .Botao5, .Botao8
+    {
+        float: center;
+    }
+}
+@media screen and (min-width:320px) and (max-width:1200px)
+{
+    .Sumiu
+    {
+        display: none;
+    }
+    .Quebra
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .Botao1, .Botao3, .Botao5 ,.Botao7, .Botao9
+    {
+        float: left;
+    }
+    .Botao2, .Botao4, .Botao6 ,.Botao8, .Botao0
+    {
+        float: right;
+        width: auto;
+    }
+    .Botao2, .Botao5, .Botao8
+    {
+        margin-left:0px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:768px)
+{
+    .Quebra
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width:320px) and (max-width:360px)
+{
+    .Quebra
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .Kpop
+    {
+        display: none;
+    }
+}
+/*COMEDIANTES*/
+.Comediantes
+{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Calibri';
+}
+@media screen and (min-width:320px) and (max-width:360px)
+{
+    .Comediantes
+    {
+        font-size: 10px;
+    }
+}
+/*REDESSOCIAIS*/
+.Social
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Rede
+{
+    width: 20px;
+}
+@media screen and (min-width:320px) and (max-width:991px)
+{
+    .Social
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:320px) and (max-width:575px)
+{
+    .Social
+    {
+        grid-template-columns: 1fr;
+    }
+    .Rede
+    {
+        width: 40px;
+    }
+}
+@media screen and (min-width:360px)
+{
+    .Ajuda
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:360px)
+{
+    .Some 
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:575px)
+{
+    .Social
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .Ajuda
+    {
+        font-size:12px;
+    }
+    .Rede
+    {
+        width: 20px;
+    }
+}
+/*FOOTER*/
+.Faixa
+{
+    background-color: rgb(255, 199, 230);
+    height: 38px;
+}
+.Footer
+{
+    background-image: url(file:///C:/Users/letic/OneDrive/Documentos/Faculdade/Desenvolvimento%20de%20Interface%20Web/Portal%20de%20Not%C3%ADcia/Teste/TrabalhoTeste/FundoCabe%C3%A7alhoNet.webp);
+    height: 110px;
+}
+.fim
+{
+    font-size:10px;
+    color: white;
+    font-family: 'Calibri';
+    text-align: center;
+}
+.icone
+{
+    color: white;
+    margin-left: 50%;
+}
